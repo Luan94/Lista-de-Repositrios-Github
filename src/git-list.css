@@ -1,0 +1,55 @@
+.about-this-project-wrapper{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.git-link{
+    color: #0d6efd;
+}
+
+.search-projetc-wrapper{
+    text-align: center;
+}
+
+.about-this-project, .git-link, .git-link-wrapper{
+    text-align: center;
+    font-weight: 600;
+}
+
+.search-repo-input{
+    width: 30%;
+    height: 2rem;
+    font-size: 12px;
+    border: 1px solid black;
+    border-radius: 4rem;
+    text-align: center;
+    color: #707070;
+}
+
+.repo-card-wrapper{
+    box-shadow: 1px 1px 4px lightgrey;
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 2rem 1rem 2rem 1rem;
+}
+
+.repo-card-link{
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.repo-card-link:hover .repo-card-wrapper{
+    background-color: #f5f5f5;
+}
+
+
+
+.repo-name-label,
+.repo-language-label,
+.repo-description-label{
+    font-weight: 600;
+}
+
+.repo-description{
+    height: 5rem;
+}
