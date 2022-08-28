@@ -1,0 +1,22 @@
+/* wrapper */
+.search-projetc-wrapper{
+    text-align: center;
+    place-content: center;
+    margin-bottom: 1rem;
+}
+
+/* search input */
+.search-repo-input{
+    height: 2rem;
+    font-size: 12px;
+    border-radius: 4px;
+    text-align: center;
+    color: #707070;
+    width: 100%;
+    max-width: 300px;
+    background: rgb(43, 43, 43);
+    color: white;
+    border: 1px solid white;
+    font-size: 16px;
+    place-self: center;
+}

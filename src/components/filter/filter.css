@@ -1,0 +1,14 @@
+.filter-label{
+    text-align: center;
+    place-content: center;
+    margin-bottom: 1rem;
+}
+
+.filter-btn-wrapper{
+    place-content: center;
+}
+
+.activeBtn {
+    background-color: white !important;
+    color: black !important;
+}

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 
+/* overall css */
 body{
     background: #181818;;
     color: white;
@@ -11,6 +12,7 @@ body{
 p{
    color: white;
    font-family: 'Montserrat', sans-serif;
+   overflow-wrap: break-word;
 }
 
 a, button{
@@ -18,29 +20,8 @@ a, button{
  color:unset;
 }
 
-.about-this-project-wrapper{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
 
-.git-link{
-    color: white;
-}
-
-.git-link:hover{
-    color: lightgray;
-}
-
-.search-projetc-wrapper, .card-link-wrapper, .filter-label{
-    text-align: center;
-    place-content: center;
-    margin-bottom: 1rem;
-}
-
-.filter-btn-wrapper{
-    place-content: center;
-}
-
+/* overall buttons css */
 
 
 button.button-type {
@@ -60,63 +41,3 @@ button.button-type:hover {
     transform: scale(1.03);
 }
 
-.about-this-project, .git-link, .git-link-wrapper{
-    text-align: center;
-    font-weight: 600;
-    margin-bottom: 2rem;
-}
-
-svg.svg-inline--fa.fa-github {
-    font-size: 40px;
-    margin: 1rem;
-}
-
-.search-repo-input{
-    height: 2rem;
-    font-size: 12px;
-    border-radius: 4px;
-    text-align: center;
-    color: #707070;
-    width: 100%;
-    max-width: 300px;
-    background: rgb(43, 43, 43);
-    color: white;
-    border: 1px solid white;
-    font-size: 16px;
-    place-self: center;
-}
-
-.btn-wrapper{
-    text-align-last: left;
-}
-
-.repo-card-wrapper{
-    background:rgb(43, 43, 43);
-    border-radius: 4px;
-    padding: 2rem;
-    margin: 1rem 1rem 1rem 1rem;
-}
-
-
-
-.button-type{
-    background-color: #f5f5f5;
-}
-
-
-
-.repo-name-label,
-.repo-language-label,
-.repo-description-label{
-    font-weight: 600;
-    font-size: 16px;
-}
-
-.selected-btn{
-    background: red !important;
-}
-
-
-.repo-description {
-    height: 6rem;
-}

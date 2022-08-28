@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 
-
+// load API
     const GitApiConfig = {
         baseUrl: "https://api.github.com",
         client_id: "Iv1.70e6fb28727f5fac",

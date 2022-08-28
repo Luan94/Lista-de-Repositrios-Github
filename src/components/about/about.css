@@ -1,0 +1,28 @@
+/* wrappers */
+.about-this-project-wrapper{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.about-this-project, .git-link, .git-link-wrapper{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+
+/* git link */
+.git-link{
+    color: white;
+}
+
+.git-link:hover{
+    color: lightgray;
+}
+
+
+/* git icon */
+svg.svg-inline--fa.fa-github {
+    font-size: 40px;
+    margin: 1rem;
+}

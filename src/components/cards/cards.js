@@ -1,23 +1,12 @@
-import React, { useState, useEffect } from "react";
-import { LoadAPI } from '../utils/useAPI';
+import React from "react";
+import './cards.css';
 
-const Cards = () =>{
 
-const [GitRepoApi, setGitRepoApi] = useState();
-
-  useEffect(() => {
-    LoadAPI()
-    .then(res => {
-      const GitRepoApi = res;      
-      setGitRepoApi(GitRepoApi);
-    });
-  }, []);
-
-    
+const Cards = ({FilteredGitRepoApi}) =>{    
 
     return (
         <div className="row">
-            {GitRepoApi?.map(repo => (
+            {FilteredGitRepoApi?.map(repo => (
                 <div className={'col-md-4 all-cards' + repo.language } key={repo.id}>
                     <div className="repo-card-wrapper">
                         <div className="col-md-12"><p className="repo-name-label">Nome do Projeto:</p></div>
